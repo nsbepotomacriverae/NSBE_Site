@@ -2,7 +2,16 @@
     display: inline-block;
     margin: 5px; /* space between buttons */
 }
-/*#members {
+#programs {
     display: inline-block;
-    padding-top: 40px; /* space between buttons */
-}*/
+    margin-top: 180px; /* space between buttons 
+*/}
+#altpositiontext {
+	right: auto;
+	left: 500px;
+}
+#altpositionpic {
+	left: auto;
+	right: 700px;
+	margin-top: 180px;
+}
