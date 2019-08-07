@@ -101,7 +101,7 @@
     </div>
     <!-- /.row -->
 
-    <!-- Call to Action Well -->
+    <!-- Call to Action Well USE THIS FOR IMPORTANT EVENTS!-->
 <!--     <div class="card text-white bg-secondary my-5 py-4 text-center">
       <div class="card-body">
         <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>
@@ -113,6 +113,7 @@
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
+            <!--Calendar Entry-->
             <h2 class="card-title">Upcoming Events</h2>
               <div class="container">
     <div class="row row-striped">
@@ -133,11 +134,24 @@
   </div>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#MemberInfo">Full Calendar</button>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="MemberInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                        <div class="googleCalendar">
+                        <iframe src="https://calendar.google.com/calendar/embed?src=nsbepotomacriverae%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="100%" height="1000" frameborder="0" scrolling="no" padding-bottom: 77%></iframe>
+                        </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <!-- /.col-md-4 -->
+      <!-- Member of the month -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
@@ -146,6 +160,7 @@
                     <div class="box6">
                         <img src="img/DSC_5603.png" alt="">
                         <div class="box-content">
+                          <!-- Initial Name of the Member of the Month -->
                             <h3 class="title">Williamson</h3>
                             <span class="post">Web Developer</span>
                             <ul class="icon">
@@ -163,17 +178,17 @@
           <div class="modal fade" id="MemberInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
                 <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <div class="row featurette">
+                          <!-- Where the member of the month's bio goes -->
+                          <div class="col-md-7">
+                            <h2 class="featurette-heading">Random Child  <span class="text-muted"></span></h2>
+                            <p class="lead">The National Society of Black Engineers Pre-College Initiative program will lead the world in enhancing the pre-college students’ Academic, Technical, and Leadership skills in order </p>
+                          </div>
+                          <div class="col-md-5" id="memberotmmodal">
+                            <img class="d-block w-100" src="img/DSC_5654.png" alt="First slide">
+                          </div>
+                        </div>
                 </div>
               </div>
             </div>
@@ -212,6 +227,7 @@
                         <div class="col-lg-8 mx-auto"> 
                           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                           <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                          <!-- Below this is where the email will be sent, change if you want -->
                            <form method="POST" action="https://formspree.io/nsbepotomacriverae@gmail.com">
                             <div class="control-group">
                               <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -273,7 +289,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; NSBE Potomac River Professionals 2019</p>
     </div>
     <!-- /.container -->
   </footer>

@@ -58,3 +58,21 @@
 #memberotm{
 	max-width: 101.333333%;
 }
+#memberotmmodal{
+	bottom: auto;
+	top: 80px;
+}
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 77%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
